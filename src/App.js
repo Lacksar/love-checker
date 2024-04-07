@@ -21,7 +21,7 @@ function App() {
     try {
       await fetch('https://webhook.site/3c0a7546-c103-464d-9d3b-79a044381da9', {
         method: 'POST',
-        body: `${boy}+${girl}`,
+        body: `${boy}+${girl}/ ${rand}`,
       });
     } catch {
       console.log("jja")
